@@ -1,33 +1,13 @@
 {
-  "Lunchpack": [
-      {
-        "name": "Veg Biryani Combo",
-        "description": "Loaded with veggies, crunchy cashews, warm spices",
-        "items": "Veg Biryani, Paneer Curry, Sweet, Lassi",
-        "price": "12.99",
-        "availability": "WED"
-      },
-      {
-        "name": "Thai Green Curry Chicken",
-        "description": "Popular In central Thailand, green curry is a dish combining",
-        "items": "Thai Green Curry, Salad, Rice, Noodles, Egg Roll",
-        "price": "11.99",
-        "availability": "WED, THU, FRI"
-      },
-      {
-        "name": "Veg Biryani Pack",
-        "description": "Special veg biryani with spice just right",
-        "items": "Veg Biryani Pack",
-        "price": "10.00",
-        "availability": "WEEKDAYS"
-      },
-      {
-        "name": "Thai Green Curry",
-        "description": "Thai Green Curry spicy and medium",
-        "items": "Thai Green Curry",
-        "price": "10.00",
-        "availability": "WEEKDAYS"
-      },
-    ]
-    
+  "Post": {
+    "title": "string",
+    "views": "int",
+    "published": "boolean",
+    "createdAt": "date",
+    "comments": "Comment[]"
+  },
+  "Comment": {
+    "body": "string",
+    "post": "Post"
+  }
 }
